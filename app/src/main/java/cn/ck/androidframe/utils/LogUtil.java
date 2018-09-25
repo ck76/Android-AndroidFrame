@@ -4,10 +4,11 @@ import android.util.Log;
 
 import cn.ck.androidframe.BuildConfig;
 
-/**
- * Created by nicolite on 17-6-24.
- * 用来控制Log输出，、、
+/**用来控制Log输出
+ *
+ * Created by ck on 2018/9/13 4:02.
  */
+
 
 public class LogUtil {
 

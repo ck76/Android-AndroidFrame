@@ -2,6 +2,8 @@ package cn.ck.androidframe.network.observer;
 
 import android.util.Log;
 
+
+
 import cn.ck.androidframe.network.exception.ApiException;
 import cn.ck.androidframe.network.exception.ExceptionEngine;
 import io.reactivex.Observer;
@@ -32,6 +34,7 @@ public abstract class HttpRxObserver <T> implements Observer<T> {
 
     @Override
     public void onError(Throwable e) {
+        //TODO SnackBar和Toast
         String msg=ExceptionEngine.handleException(e).getMsg();
         onError(msg);
 

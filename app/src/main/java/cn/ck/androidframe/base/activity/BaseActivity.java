@@ -3,6 +3,7 @@ package cn.ck.androidframe.base.activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
 
@@ -19,7 +20,7 @@ import cn.ck.androidframe.utils.LogUtil;
  * Created by ck on 2018/9/12 22:58.
  */
 
-public abstract class BaseActivity extends RxAppCompatActivity {
+public abstract class BaseActivity extends AppCompatActivity {
 
 
     protected final String TAG = getClass().getSimpleName();

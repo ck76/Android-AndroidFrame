@@ -1,11 +1,11 @@
 package cn.ck.androidframe;
 
-import android.widget.Toast;
+import java.util.List;
 
 import cn.ck.androidframe.base.presenter.BasePresenter;
 import cn.ck.androidframe.network.observer.HttpRxObserver;
-import io.reactivex.Observer;
-import io.reactivex.disposables.Disposable;
+import cn.ck.androidframe.test.Goods;
+import cn.ck.androidframe.test.HttpPageResult;
 
 /**
  * Created by ck on 2018/9/13.
@@ -39,7 +39,7 @@ public class LoginPresenter extends BasePresenter<LoginContract.ILoginView,MainA
 //            }
 //        };
 
-        HttpRxObserver httpRxObserver=new HttpRxObserver<String>() {
+       /* HttpRxObserver<String> httpRxObserver=new HttpRxObserver<String>() {
             @Override
             public void onSuccess(String s) {
 
@@ -50,6 +50,20 @@ public class LoginPresenter extends BasePresenter<LoginContract.ILoginView,MainA
                 getView().onSuccess(msg);
             }
         };
-         new LoginModel().login(getActivity(),httpRxObserver);
+         new LoginModel().login(getActivity(),httpRxObserver);*/
+
+       HttpRxObserver<HttpPageResult<List<Goods>>> httpPageResultHttpRxObserver=new HttpRxObserver<HttpPageResult<List<Goods>>>() {
+           @Override
+           public void onSuccess(HttpPageResult<List<Goods>> listHttpPageResult) {
+               getView().onSuccess("ckaaaa~~~~");
+           }
+
+           @Override
+           public void onError(String msg) {
+
+           }
+       };
+
+        new LoginModel().login(getActivity(),httpPageResultHttpRxObserver);
     }
 }
