@@ -20,7 +20,7 @@ import cn.ck.androidframe.utils.LogUtil;
  * Created by ck on 2018/9/12 22:58.
  */
 
-public abstract class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends RxAppCompatActivity {
 
 
     protected final String TAG = getClass().getSimpleName();
