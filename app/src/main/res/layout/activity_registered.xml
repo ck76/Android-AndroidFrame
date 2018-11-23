@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/bg_login"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_login">
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/user"
+            android:layout_marginStart="20dp" />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColorHint="@color/more_light_grey"
+            android:textColor="@color/grey"
+            android:hint="用户名"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_edt">
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_password"
+            android:layout_marginStart="20dp" />
+
+        <EditText
+            android:id="@+id/edt_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:textColorHint="@color/more_light_grey"
+            android:textSize="14sp"
+            android:textColor="@color/grey"
+            android:inputType="textPassword"
+            android:hint="密码"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_login2">
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_password"
+            android:layout_marginStart="20dp" />
+
+        <EditText
+            android:id="@+id/edt_once_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:textColorHint="@color/more_light_grey"
+            android:textSize="14sp"
+            android:textColor="@color/grey"
+            android:inputType="textPassword"
+            android:hint="再次输入密码"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_register"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_btn"
+        android:text="注册"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+</LinearLayout>

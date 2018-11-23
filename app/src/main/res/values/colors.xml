@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#555555</color>
+    <color name="colorPrimaryDark">#555555</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="Ctransparent">#1A000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#BBBBBB</color>
+    <color name="greyBlack">#262626</color>
+
+    <color name="toolbar">#fffefe</color>
+
+    <color name="tablayout">#FF3ED12B</color>
+
+
+    <color name="red">#FFD12B2B</color>
+
+    <color name="light_grey">#adadad</color> <!-- 浅灰 -->
+
+    <color name="more_light_grey">#d6d3d3</color>
+
+    <color name="blue">#3cb2e3</color>
+
+
+    <color name="txt_primary">#000000</color>
+    <color name="txt_secondary">#131313</color>
+    <color name="txt_ternary">#666666</color>
 </resources>

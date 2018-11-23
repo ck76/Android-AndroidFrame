@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:padding="@dimen/spacing_small">
+
+    <TextView
+        android:id="@+id/note_txt_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_small"
+        android:text="2018/02/01"
+        android:textColor="@color/txt_ternary"
+        android:textSize="@dimen/text_ternary" />
+
+    <TextView
+        android:id="@+id/note_txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/note_txt_time"
+        android:layout_marginLeft="@dimen/spacing_tiny"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:layout_toLeftOf="@id/note_img_title"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="这个很重要asdoaisjdoiasjdioiasjdoiajsoidjaoisjdoiasjdoiajsoidjasoijdoiasjdoiasajsoidjaosd"
+        android:textColor="@color/txt_secondary"
+        android:textSize="@dimen/text_secondary" />
+
+    <LinearLayout
+        android:id="@+id/note_ll_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/note_txt_title"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/note_3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_small"
+            android:text="编辑要点" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/note_ll_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_toRightOf="@id/note_ll_edit"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/note_3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_small"
+            android:text="编辑要点" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/note_img_title"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/note_txt_time"
+        android:background="@mipmap/ic_launcher" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/spacing_small"
+        android:layout_marginRight="@dimen/spacing_small"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:background="@color/txt_ternary" />
+
+</RelativeLayout>
