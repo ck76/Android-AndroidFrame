@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/note_question"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/note_1"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="我有问题"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/note_point"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/note_2"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="重要知识点"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/note_input"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/note_3"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="输入笔记"/>
+    </LinearLayout>
+
+
+</LinearLayout>

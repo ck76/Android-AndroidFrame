@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_course_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="5dp"
+        android:text="C++入门暑假公开课"
+        android:textSize="17sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:id="@+id/img_percent"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/percent" />
+
+            <TextView
+                android:id="@+id/tv_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:text="5"
+                android:textColor="@color/blue" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="截至目前预计退换押金："
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_wallet_refund"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20元"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/bonus" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="73dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="奖学金："
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_wallet_bonus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200元"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <!--<LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tv_course_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="某某课程"
+            style="@style/text_style"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已获得退款: "
+            style="@style/text_style"
+            />
+
+        <TextView
+            android:id="@+id/tv_tuikuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="888.0"
+            style="@style/text_style"
+            />
+
+    </LinearLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey" />
+
+</LinearLayout>

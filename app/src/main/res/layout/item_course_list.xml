@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearlayout_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_course_name"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="课程名字"
+                android:textColor="@color/txt_ternary"
+                android:textSize="@dimen/text_secondary"
+                android:textStyle="bold" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_course_content"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/tv_course_name"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:layout_marginTop="4dp"-->
+            <!--android:maxLines="1"-->
+            <!--android:ellipsize="end"-->
+            <!--android:text="课程内容。。。。。。。。"-->
+            <!--style="@style/text_style"/>-->
+
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_course_jindu"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:text="已学50%"-->
+            <!--android:textSize="14sp"-->
+            <!--android:textColor="@color/tablayout"-->
+            <!--android:layout_alignParentStart="true" />-->
+
+
+            <ImageView
+                android:id="@+id/imge_course"
+                android:layout_width="156dp"
+                android:layout_height="86dp"
+                android:layout_marginRight="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/maomao" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@color/black" />
+
+</LinearLayout>

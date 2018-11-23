@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">AndroidFrame</string>
+    <string name="app_name">牛课</string>
+    <string name="empty"></string>
+    <string name="toast_twice_click_exit">再次点击退出应用</string>
+    <string name="dialog_please_wait">请稍后</string>
+    <string name="btn_back">返回</string>
+    <string name="toast_account_null">用户名不能为空</string>
+    <string name="toast_account_num_error">请输入6-10位用户名</string>
+    <string name="toast_pwd_error">请输入6-20位的密码</string>
+    <string name="toast_pwd_different_error">两次输入的密码不同</string>
+    <string name="register_error">注册失败</string>
+    <string name="const_recommend_course">推荐课程</string>
+    <string name="buy_course_fail">购买失败！</string>
 </resources>
