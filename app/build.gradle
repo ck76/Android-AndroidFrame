@@ -58,18 +58,9 @@ dependencies {
     implementation 'com.github.forvv231:EasyNavigition:1.0.1'
     implementation 'de.hdodenhof:circleimageview:2.1.0'
     implementation 'com.youth.banner:banner:1.4.10'
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-15'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-15'//没有使用特殊Header，可以不加这行
 
 
-
-    /**
-     * ExoPlayer
-     */
-//    implementation 'com.google.android.exoplayer:exoplayer:2.8.4'
-    implementation 'com.google.android.exoplayer:exoplayer:2.8.1'
-
-    /**
-     * recyclerview
-     */
-    implementation 'com.yanzhenjie:recyclerview-swipe:1.1.4'
 
 }
